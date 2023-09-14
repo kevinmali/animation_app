@@ -8,7 +8,10 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      routes: {'/': (ctx) => HomePage(), 'Splace': (ctx) => SplacePage()},
+      routes: {
+        '/': (ctx) => SplacePage(),
+        'Home_page': (ctx) => HomePage(),
+      },
     ),
   );
 }
